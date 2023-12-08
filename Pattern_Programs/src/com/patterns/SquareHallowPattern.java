@@ -6,15 +6,8 @@ public class SquareHallowPattern {
 
 	public static void createPattern(int row, int col) {
 		
-		int top = 0;
-		int bottom = row-1;
-		
-		int first = 0;
-		int last =col-1;
-		
-		
-		for(int i=0;i<row;i++) {
-				
+			
+		for(int i=0;i<row;i++) {				
 			for(int j=0;j<col;j++) {
 				if(i==0 ||i==row-1||j==0 || j==col-1) {
 					System.out.print("x");
